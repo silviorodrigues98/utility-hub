@@ -1,48 +1,37 @@
 # Utility Hub
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Chrome](https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
-![License](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=google-chrome&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-> Extensão Chrome all-in-one de produtividade — auto-reload, keep-alive e assinatura WhatsApp. Código aberto, privacidade em primeiro lugar.
+> Extensão Chrome all-in-one de produtividade — auto-reload, keep-alive e ferramentas para o dia a dia. Código aberto, privacidade em primeiro lugar.
 
-## ✨ Funcionalidades
+---
 
-- ✅ **Auto Reload** — Recarrega páginas automaticamente em intervalo configurável
-- ✅ **Keep Alive** — Mantém sessões ativas evitando timeouts
-- ✅ **Assinatura WhatsApp** — Adiciona assinatura personalizada no WhatsApp Web
-- ✅ **Privacidade first** — Nenhum dado sai do seu navegador
+## 🚀 Funcionalidades
 
-## 🛠 Stack
+- **Auto-reload inteligente**: Recarregamento automático de páginas configuráveis.
+- **Keep-Alive**: Mantém conexões e sessões ativas sem intervenção manual.
+- **Privacidade em primeiro lugar**: Sem telemetria abusiva ou armazenamento de dados sensíveis.
 
-- **Manifest V3** — Última versão da API de extensões Chrome
-- **JavaScript puro** — Sem dependências externas
-- **Storage sync** — Configurações sincronizadas entre dispositivos
+---
 
-## 🚀 Instalação
+## 🛠️ Tech Stack
 
-1. Acesse `chrome://extensions/`
-2. Ative o **Modo do desenvolvedor**
-3. Clique em **Carregar sem compactação**
-4. Selecione a pasta `utility-hub`
+- **Linguagem**: JavaScript (ES6+)
+- **Plataforma**: Chrome Extensions Manifest V3
 
-Ou instale pela [Chrome Web Store](https://chromewebstore.google.com) (em breve).
+---
 
-## 📖 Como usar
+## 📦 Instalação e Uso
 
-Após instalar, clique no ícone da extensão na barra de ferramentas:
+1. Clone o repositório ou baixe o código-fonte.
+2. Acesse `chrome://extensions/` no seu navegador Google Chrome.
+3. Ative o **Modo do desenvolvedor** (Developer mode).
+4. Clique em **Carregar sem compactação** (Load unpacked) e selecione a pasta do projeto.
 
-- **Auto Reload:** Defina o intervalo em segundos e ative por aba
-- **Keep Alive:** Ative para abas específicas que precisam ficar ativas
-- **Assinatura:** Configure seu texto de assinatura para o WhatsApp Web
-
-## 🔒 Privacidade
-
-- ✅ Código 100% aberto e auditável
-- ✅ Sem trackers, analytics ou coleta de dados
-- ✅ Tudo roda localmente no seu navegador
-- ✅ Configurações armazenadas no chrome.storage.sync
+---
 
 ## 📄 Licença
 
-MIT © [Silvio Rodrigues](https://github.com/silviorodrigues98)
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
